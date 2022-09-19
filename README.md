@@ -1,7 +1,7 @@
 # Proyecto Final-Ciencia de Datos Aplicada
 
 ## Autores
-David Martinez
+David Martinez - 
 Oscar Bosigas
 
 ## Descripcion
