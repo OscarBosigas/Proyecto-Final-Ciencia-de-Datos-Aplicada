@@ -1,8 +1,9 @@
 # Proyecto Final-Ciencia de Datos Aplicada
 
 ## Autores
-David Martinez - 
-Oscar Bosigas
+Yeimy Cano - 
+Oscar Bosigas -
+David Polania
 
 ## Descripcion
 
@@ -24,8 +25,12 @@ De igual manera para los productos con menor relevancia.
 Por ultimo empezamos con algunas medidas estadisticas como los promedios y graficacion de "tops" o productos de mayor interes
 
 
+## Codigo entrega 2
+
+El codigo realizado para la segunda entrega se encuentra en la carpeta "Entrega 2" del repositorio. Se recomienda abrir el archivo "Proyecto Final Scripts" en Colab para su correcta visualizacion.
+
 ## Fecha
-18/09/22
+03/11/22
 
 ## Versiones
 
