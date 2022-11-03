@@ -27,7 +27,7 @@ Por ultimo empezamos con algunas medidas estadisticas como los promedios y grafi
 
 ## Codigo entrega 2
 
-El codigo realizado para la segunda entrega se encuentra en la carpeta "Entrega 2" del repositorio. Se recomienda abrir el archivo "Proyecto Final Scripts" en Colab para su correcta visualizacion. En este archivo se encuntra todo el analisis de datos, transformaciones y entrenamientos de modelos de ML correspondientes.
+El codigo realizado para la segunda entrega se encuentra en la carpeta "Entrega 2" del repositorio. Se recomienda abrir el archivo "Proyecto Final Scripts" en Colab para su correcta visualizacion o de lo contrario descargar el archivo y abrirlo con Jupyter Notebook, esto debido a que algunas partes de los resultados no son visibles en la pagina de GitHub. En este archivo se encuntra todo el analisis de datos, transformaciones y entrenamientos de modelos de ML correspondientes.
 
 ## Fecha
 03/11/22
