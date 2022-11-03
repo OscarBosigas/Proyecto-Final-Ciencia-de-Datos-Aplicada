@@ -12,7 +12,7 @@ Algunos de los analisis buscados son: agrupacion, clasficiacion y regresion.
 
 Esto con el fin de determinar tanto los municipios y departamentos como los productos y su producción más representativos de Colombia y así poder buscar una optimización o mejoras en estos casos puntuales, debido a que representan una parte importante de la economía y su análisis nos puede ayudar a un nivel económico y social aportando información a las organizaciones gubernamentales del agro que puedan ayudar a los involucrados. 
 
-## Codigo
+## Codigo entrega 1
 
 El codigo inicial del proyecto se encuentra en el archivo Script.py de la ruta principal del repositorio.
 En este iniciamos con el analisis exploratorio de los datos, primero cargando los datos y posteriormente haciendo una limpieza de datos erroneos.
@@ -27,7 +27,7 @@ Por ultimo empezamos con algunas medidas estadisticas como los promedios y grafi
 
 ## Codigo entrega 2
 
-El codigo realizado para la segunda entrega se encuentra en la carpeta "Entrega 2" del repositorio. Se recomienda abrir el archivo "Proyecto Final Scripts" en Colab para su correcta visualizacion.
+El codigo realizado para la segunda entrega se encuentra en la carpeta "Entrega 2" del repositorio. Se recomienda abrir el archivo "Proyecto Final Scripts" en Colab para su correcta visualizacion. En este archivo se encuntra todo el analisis de datos, transformaciones y entrenamientos de modelos de ML correspondientes.
 
 ## Fecha
 03/11/22
