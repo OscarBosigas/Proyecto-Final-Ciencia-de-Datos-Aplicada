@@ -17,8 +17,13 @@ def read_root():
 
 @app.post("/predict")
 def make_predictions(X: List[DataModel]):
-    print(X)
     df = pd.DataFrame([x.dict() for x in X])
+    #return dataframes as js
     predicion_model = PredictionModel()
     results = predicion_model.make_predictions(df)
+    
+    
+    
     return results.tolist()
+
+
