@@ -4,24 +4,27 @@ import SelectPanel from "../SelectPanel/SelectPanel";
 import "./screen.scss";
 import options from "../data/select_options.json";
 import InputPanel from "../InputPanel/InputPanel";
+import SelectList from '../SelectList';
 
 const Screen = () => {
 
   const [ciclo_cultivo, setciclo_cultivo] = useState("");
   const [estado_produccion, setestado_produccion] = useState("");
   const [grupo_cultivo, setgrupo_cultivo] = useState("");
-  const [departamento, setdepartamento] = useState("");
-  const [municipio, setmunicipio] = useState("");
+  const [departamento, setDepartament] = useState("");
+  const [municipio, setCity] = useState("");
   const [period, setperiod] = useState("");
   const [year, setyear] = useState(0);
   const [area, setarea] = useState(0);
 
   const[prediction, setprediction] = useState(0);
-
+  
+  const url = 'https://raw.githubusercontent.com/marcovega/colombia-json/master/colombia.min.json'
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
+
     const data = [{
       departamento,
       municipio,
@@ -70,18 +73,21 @@ const Screen = () => {
           id="select-cultive-group"
           setSelectedOption={setgrupo_cultivo}
         />
-        <SelectPanel
-          options={options.department}
-          title={"Departamento"}
-          id="select-department"
-          setSelectedOption={setdepartamento}
+        <SelectList 
+        title="departamento" 
+        url={url} 
+        handleChange={e => setDepartament(e.target.value)}
+        departament={departamento}
         />
-        <SelectPanel
-          options={options.municipe}
-          title={"Municipio"}
-          id="select-municipe"
-          setSelectedOption={setmunicipio}
+        {departamento &&
+        <SelectList 
+        title="ciudad" 
+        url={url} 
+        handleChange={e => setCity(e.target.value)}
+        departament={departamento}
         />
+        }              
+  
         <SelectPanel
           options={options.period}
           title={"Periodo"}
