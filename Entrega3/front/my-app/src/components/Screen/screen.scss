@@ -1,0 +1,36 @@
+@import "../../sass/colors";
+
+.screen-container {
+  background-color: $container-background;
+  height: 80vh;
+  width: 100vw;
+  .selectForm {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    grid-gap: 1em;
+
+   .submit-button {
+      grid-column: 2 / 4;
+
+      background-color: $background-color;
+      color: $title;
+      border: none;
+      border-radius: 0.2em;
+      padding: 0.5em;
+      font-size: 1em;
+      cursor: pointer;
+      &:hover {
+        background-color: darken($background-color, 10%);
+      }
+    }
+  }
+
+  .prediction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}

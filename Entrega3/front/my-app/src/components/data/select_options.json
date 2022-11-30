@@ -1,0 +1,442 @@
+{
+    "cultive_cycle": [
+        {
+            "value": "TRANSITORIO",
+            "label": "Transitorio"
+        },
+        {
+            "value": "ANUAL",
+            "label": "Anual"
+        },
+        {
+            "value": "PERMANENTE",
+            "label": "Permanente"
+        }
+    ],
+    "production_state": [
+        {
+            "value": "FRUTO FRESCO",
+            "label": "Fruto Fresco"
+        },
+        {
+            "value": "HOJA FRESCA",
+            "label": "Hoja Fresca"
+        },
+        {
+            "value": "TUBERCULO FRESCO",
+            "label": "Tubérculo Fresco"
+        },
+        {
+            "value": "HORTALIZA FRESCA",
+            "label": "Hortaliza Fresca"
+        },
+        {
+            "value": "GRANO SECO",
+            "label": "Grano Seco"
+        },
+        {
+            "value": "SEMILLA",
+            "label": "Semilla"
+        },
+        {
+            "value": "SEMILLA SECA",
+            "label": "Semilla Seca"
+        },
+        {
+            "value": "FLOR FRESCA",
+            "label": "Flor Fresca"
+        },
+        {
+            "value": "PADDY VERDE",
+            "label": "Paddy Verde"
+        },
+        {
+            "value": "FOLLAJE FRESCO",
+            "label": "Follaje Fresco"
+        },
+        {
+            "value": "CAFE VERDE EQUIVALENTE",
+            "label": "Café Verde Equivalente"
+        },
+        {
+            "value": "LATEX SECO",
+            "label": "Látex Seco"
+        },
+        {
+            "value": "CAÑA PARA MOLIENDA",
+            "label": "Caña para Molienda"
+        },
+        {
+            "value": "FIBRA SECA",
+            "label": "Fibra Seca"
+        },
+        {
+            "value": "MELAZA",
+            "label": "Melaza"
+        },
+        {
+            "value": "PANELA",
+            "label": "Panela"
+        },
+        {
+            "value": "HONGO FRESCO",
+            "label": "Hongos Frescos"
+        },
+        {
+            "value": "LEGUMINOSA FRESCA",
+            "label": "Leguminosa Fresca"
+        },
+        {
+            "value": "SEMILLA OLEAGINOSA",
+            "label": "Semilla Oleaginosa"
+        },
+        {
+            "value": "FORRAJE FRESCO",
+            "label": "Forraje Fresco"
+        },
+        {
+            "value": "ACEITE CRUDO",
+            "label": "Aceite Crudo"
+        },
+        {
+            "value": "ND",
+            "label": "ND"
+        },
+        {
+            "value": "HOJA SECA",
+            "label": "Hoja Seca"
+        }
+    ],
+    "cultive_group": [
+        {
+            "value": "HORTALIZAS",
+            "label": "Hortalizas"
+        },
+        {
+            "value": "PLANTAS AROMATICAS, CONDIMENTARIAS Y MEDICINALES",
+            "label": "Plantas Aromáticas, Condimentarias y Medicinales"
+        },
+        {
+            "value": "TUBERCULOS Y PLATANOS",
+            "label": "Tubérculos y Plátanos"
+        },
+        {
+            "value": "FRUTALES",
+            "label": "Frutales"
+        },
+        {
+            "value": "OLEAGINOSAS",
+            "label": "Oleaginosas"
+        },
+        {
+            "value": "LEGUMINOSAS",
+            "label": "Leguminosas"
+        },
+        {
+            "value": "FIBRAS",
+            "label": "Fibras"
+        },
+        {
+            "value": "FLORES Y FOLLAJES",
+            "label": "Flores y Follajes"
+        },
+        {
+            "value": "CEREALES",
+            "label": "Cereales"
+        },
+        {
+            "value": "OTROS PERMANENTES",
+            "label": "Otros Permanentes"
+        },
+        {
+            "value": "FORESTALES",
+            "label": "Forestales"
+        },
+        {
+            "value": "HONGOS",
+            "label": "Hongos"
+        },
+        {
+            "value": "OTROS TRANSITORIOS",
+            "label": "Otros Transitorios"
+        }
+    ],
+    "department": [
+        {
+            "value": "BOYACA",
+            "label": "Boyacá"
+        },
+        {
+            "value": "CUNDINAMARCA",
+            "label": "Cundinamarca"
+        },
+        {
+            "value": "NORTE DE SANTANDER",
+            "label": "Norte de Santander"
+        },
+        {
+            "value": "SANTANDER",
+            "label": "Santander"
+        },
+        {
+            "value": "CAUCA",
+            "label": "Cauca"
+        },
+        {
+            "value": "VALLE DEL CAUCA",
+            "label": "Valle del Cauca"
+        },
+        {
+            "value": "CALDAS",
+            "label": "Caldas"
+        },
+        {
+            "value": "PUTUMAYO",
+            "label": "Putumayo"
+        },
+        {
+            "value": "TOLIMA",
+            "label": "Tolima"
+        },
+        {
+            "value": "NARIÑO",
+            "label": "Nariño"
+        },
+        {
+            "value": "QUINDIO",
+            "label": "Quindío"
+        },
+        {
+            "value": "ANTIOQUIA",
+            "label": "Antioquia"
+        },
+        {
+            "value": "CAQUETA",
+            "label": "Caquetá"
+        },
+        {
+            "value": "AMAZONAS",
+            "label": "Amazonas"
+        },
+        {
+            "value": "CHOCO",
+            "label": "Chocó"
+        },
+        {
+            "value": "HUILA",
+            "label": "Huila"
+        },
+        {
+            "value": "ARAUCA",
+            "label": "Arauca"
+        },
+        {
+            "value": "CASANARE",
+            "label": "Casanare"
+        },
+        {
+            "value": "LA GUAJIRA",
+            "label": "La Guajira"
+        },
+        {
+            "value": "BOLIVAR",
+            "label": "Bolívar"
+        },
+        {
+            "value": "CESAR",
+            "label": "Cesar"
+        },
+        {
+            "value": "META",
+            "label": "Meta"
+        },
+        {
+            "value": "RISARALDA",
+            "label": "Risaralda"
+        },
+        {
+            "value": "SUCRE",
+            "label": "Sucre"
+        },
+        {
+            "value": "CORDOBA",
+            "label": "Córdoba"
+        },
+        {
+            "value": "MAGDALENA",
+            "label": "Magdalena"
+        },
+        {
+            "value": "VICHADA",
+            "label": "Vichada"
+        },
+        {
+            "value": "GUAINIA",
+            "label": "Guainía"
+        },
+        {
+            "value": "ATLANTICO",
+            "label": "Atlántico"
+        },
+        {
+            "value": "GUAVIARE",
+            "label": "Guaviare"
+        },
+        {
+            "value": "VAUPES",
+            "label": "Vaupés"
+        },
+        {
+            "value": "SAN ANDRES Y PROVIDENCIA",
+            "label": "San Andrés y Providencia"
+        },
+        {
+            "value": "BOYACA",
+            "label": "Boyacá"
+        },
+        {
+            "value": "CUNDINAMARCA",
+            "label": "Cundinamarca"
+        },
+        {
+            "value": "NORTE DE SANTANDER",
+            "label": "Norte de Santander"
+        },
+        {
+            "value": "SANTANDER",
+            "label": "Santander"
+        },
+        {
+            "value": "CAUCA",
+            "label": "Cauca"
+        },
+        {
+            "value": "VALLE DEL CAUCA",
+            "label": "Valle del Cauca"
+        },
+        {
+            "value": "CALDAS",
+            "label": "Caldas"
+        },
+        {
+            "value": "PUTUMAYO",
+            "label": "Putumayo"
+        },
+        {
+            "value": "TOLIMA",
+            "label": "Tolima"
+        },
+        {
+            "value": "NARIÑO",
+            "label": "Nariño"
+        },
+        {
+            "value": "QUINDIO",
+            "label": "Quindío"
+        },
+        {
+            "value": "ANTIOQUIA",
+            "label": "Antioquia"
+        },
+        {
+            "value": "CAQUETA",
+            "label": "Caquetá"
+        },
+        {
+            "value": "AMAZONAS",
+            "label": "Amazonas"
+        },
+        {
+            "value": "CHOCO",
+            "label": "Chocó"
+        },
+        {
+            "value": "HUILA",
+            "label": "Huila"
+        },
+        {
+            "value": "ARAUCA",
+            "label": "Arauca"
+        },
+        {
+            "value": "CASANARE",
+            "label": "Casanare"
+        },
+        {
+            "value": "LA GUAJIRA",
+            "label": "La Guajira"
+        },
+        {
+            "value": "BOLIVAR",
+            "label": "Bolívar"
+        },
+        {
+            "value": "CESAR",
+            "label": "Cesar"
+        },
+        {
+            "value": "META",
+            "label": "Meta"
+        },
+        {
+            "value": "RISARALDA",
+            "label": "Risaralda"
+        },
+        {
+            "value": "SUCRE",
+            "label": "Sucre"
+        },
+        {
+            "value": "CORDOBA",
+            "label": "Córdoba"
+        },
+        {
+            "value": "MAGDALENA",
+            "label": "Magdalena"
+        },
+        {
+            "value": "VICHADA",
+            "label": "Vichada"
+        },
+        {
+            "value": "GUAINIA",
+            "label": "Guainía"
+        },
+        {
+            "value": "ATLANTICO",
+            "label": "Atlántico"
+        },
+        {
+            "value": "GUAVIARE",
+            "label": "Guaviare"
+        },
+        {
+            "value": "VAUPES",
+            "label": "Vaupés"
+        },
+        {
+            "value": "SAN ANDRES Y PROVIDENCIA",
+            "label": "San Andrés y Providencia"
+        }
+    ],
+    "municipe": [
+        {
+            "value": "BUSBANZA",
+            "label": "Busbanza"
+        }
+    ],
+    "period" : [
+        {
+            "value": "A",
+            "label": "Primer Semestre"
+        },
+        {
+            "value": "B",
+            "label": "Segundo Semestre"
+        },
+        {
+            "value": "C",
+            "label": "Todo el año"
+        }
+    ]
+}

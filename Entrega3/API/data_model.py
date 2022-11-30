@@ -6,7 +6,7 @@ class DataModel(BaseModel):
     grupo_cultivo: str
     year: int
     period: str
-    area:  int
+    area:  float
     estado_produccion: str
     ciclo_cultivo: str
     
