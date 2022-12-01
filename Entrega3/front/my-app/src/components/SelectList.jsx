@@ -1,6 +1,7 @@
 import React from 'react'
 import { useFetch } from '../hooks/useFetch'
 import Message from './Message';
+import "../components/Screen/screen.scss";
 
 const SelectList = ({title, url, handleChange, msg, departament }) => {
     
@@ -20,9 +21,10 @@ const SelectList = ({title, url, handleChange, msg, departament }) => {
 
   return (
     <div>
-        <label htmlFor={id}>{label}</label>
+        
+        <h2 htmlFor={id}>{label}</h2>
 
-        <select name={id} id={id} onChange={handleChange}>
+        <select name={id} id={id} onChange={handleChange} Style="width:300px; height:37px; font-size:17px">
             <option value="">{msg}</option>
             {
                 title === "departamento" 

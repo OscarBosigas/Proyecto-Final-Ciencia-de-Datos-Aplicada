@@ -41,11 +41,13 @@ const Screen = () => {
       headers: {
         "Content-Type": "application/json",
       },
+      
       body: JSON.stringify(data),
     })
       .then((res) => res.json())
       .then((data) => {
         setprediction(data[0]);
+        console.log(data[0])
       });
   };
 

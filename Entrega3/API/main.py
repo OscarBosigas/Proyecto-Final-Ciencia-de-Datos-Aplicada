@@ -29,7 +29,9 @@ def read_root():
 @app.post("/predict")
 def make_predictions(X: List[DataModel]):
     df = pd.DataFrame([x.dict() for x in X])
-    #return dataframes as js
+    df['departamento'] = df["departamento"].str.upper()
+    df['municipio'] = df["municipio"].str.upper()
+    print(df.head(10))
     predicion_model = PredictionModel()
     results = predicion_model.make_predictions(df)
     
