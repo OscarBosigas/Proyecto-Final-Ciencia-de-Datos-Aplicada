@@ -29,8 +29,12 @@ Por ultimo empezamos con algunas medidas estadisticas como los promedios y grafi
 
 El codigo realizado para la segunda entrega se encuentra en la carpeta "Entrega 2" del repositorio. Se recomienda abrir el archivo "Proyecto Final Scripts" en Colab para su correcta visualizacion o de lo contrario descargar el archivo y abrirlo con Jupyter Notebook, esto debido a que algunas partes de los resultados no son visibles en la pagina de GitHub. En este archivo se encuntra todo el analisis de datos, transformaciones y entrenamientos de modelos de ML correspondientes.
 
+## Codigo entrega 3
+
+El codigo para la tercera entrega se ecnuentra en la carpeta "Entrega 3" del repositorio. Esta dividida en 3 partes, la primera en la carpeta "noteboooks" en la cual se encuentra el Jupyter con el entendimiento de los modelos y sus metricas, la segunda en "API" donde se encuntra el BackEnd de la aplicacion con el modelo desplegado en una API Rest, el tercert "front" es donde se encuentra la aplicacion web para acceder  la pagina donde desplegamos los datos para realizar predicciones con el modelo.
+
 ## Fecha
-03/11/22
+01/12/22
 
 ## Versiones
 
